@@ -5,7 +5,7 @@ This repository contains an implementation of multiple deep learning architectur
 
 
 
-![Model Architecture](./images/architecture.svg)
+![Model Architecture](./images/architecture.png)
 
 
 ## Features
@@ -66,7 +66,7 @@ The project implements multiple segmentation architectures as shown in the diagr
 
 ## Training Pipeline
 
-![Training Process](./images/training_flow.svg)
+![Training Process](./images/training_flow.png)
 
 The training pipeline follows the process shown above and includes:
 
@@ -126,7 +126,7 @@ python run_inference_pipeline.py
 
 ## Results Visualization
 
-![Results Comparison](./images/results_comparison.svg)
+![Results Comparison](./images/results_comparison.png)
 
 Results are saved in multiple formats:
 
