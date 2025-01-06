@@ -1,0 +1,47 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Data Loading -->
+    <rect x="50" y="50" width="150" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+    <text x="125" y="85" text-anchor="middle" fill="#3f51b5" font-family="Arial">Data Loading</text>
+
+    <!-- Augmentation -->
+    <path d="M 200 80 L 250 80" stroke="#3f51b5" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="250" y="50" width="150" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+    <text x="325" y="85" text-anchor="middle" fill="#3f51b5" font-family="Arial">Augmentation</text>
+
+    <!-- Model -->
+    <path d="M 400 80 L 450 80" stroke="#3f51b5" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="450" y="50" width="150" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+    <text x="525" y="85" text-anchor="middle" fill="#3f51b5" font-family="Arial">Model Forward</text>
+
+    <!-- Loss -->
+    <path d="M 600 80 L 650 80" stroke="#3f51b5" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="650" y="50" width="150" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+    <text x="725" y="85" text-anchor="middle" fill="#3f51b5" font-family="Arial">Loss Calculation</text>
+
+    <!-- Backward -->
+    <path d="M 725 110 L 725 160" stroke="#3f51b5" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="650" y="160" width="150" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+    <text x="725" y="195" text-anchor="middle" fill="#3f51b5" font-family="Arial">Backward Pass</text>
+
+    <!-- Optimizer -->
+    <path d="M 650 190 L 600 190" stroke="#3f51b5" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="450" y="160" width="150" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+    <text x="525" y="195" text-anchor="middle" fill="#3f51b5" font-family="Arial">Optimizer Step</text>
+
+    <!-- Metrics -->
+    <path d="M 450 190 L 400 190" stroke="#3f51b5" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="250" y="160" width="150" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+    <text x="325" y="195" text-anchor="middle" fill="#3f51b5" font-family="Arial">Metrics Update</text>
+
+    <!-- Validation -->
+    <path d="M 250 190 L 200 190" stroke="#3f51b5" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="50" y="160" width="150" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+    <text x="125" y="195" text-anchor="middle" fill="#3f51b5" font-family="Arial">Validation</text>
+
+    <!-- Definitions -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+            <path d="M0,0 L10,5 L0,10 L2,5 Z" fill="#3f51b5"/>
+        </marker>
+    </defs>
+</svg>
