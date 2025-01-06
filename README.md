@@ -5,7 +5,7 @@ This repository contains an implementation of multiple deep learning architectur
 
 
 
-![Model Architecture](./images/architecture.png)
+![Model Architecture](https://github.com/Ejigsonpeter/Automated-Polyp-Segmentation/tree/real/Images/architecture.png)
 
 
 ## Features
